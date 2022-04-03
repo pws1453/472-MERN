@@ -1,0 +1,12 @@
+html
+  head
+    title Auth Lab 4
+  body
+    h1 Login Here
+    form(action='/login/login',method='POST')
+      p
+        | Username:
+        input(type="text" name="username" placeholder="")
+        | Password:
+        input(type="text" name="password" placeholder="")
+      input(type='submit', value='Submit')
